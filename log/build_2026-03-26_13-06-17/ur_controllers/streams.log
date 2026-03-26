@@ -1,0 +1,788 @@
+[0.007s] Invoking command in '/home/pran/Robot_Arm_ur5/build/ur_controllers': AMENT_PREFIX_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/pran/Robot_Arm_ur5/install/ur_controllers
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.086s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.147s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.147s] -- Detecting C compile features
+[0.148s] -- Detecting C compile features - done
+[0.150s] -- Detecting CXX compiler ABI info
+[0.204s] -- Detecting CXX compiler ABI info - done
+[0.211s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.211s] -- Detecting CXX compile features
+[0.212s] -- Detecting CXX compile features - done
+[0.214s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.316s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.373s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.377s] -- Found controller_interface: 2.52.2 (/opt/ros/humble/share/controller_interface/cmake)
+[0.405s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.408s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.413s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.420s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.554s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.570s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.609s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.611s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.622s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.624s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.629s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.637s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.647s] -- Looking for pthread.h
+[0.700s] -- Looking for pthread.h - found
+[0.700s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.752s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.753s] -- Found Threads: TRUE  
+[0.781s] -- Found joint_trajectory_controller: 2.50.2 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[0.829s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.839s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.845s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.846s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.846s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.879s] -- Found ur_dashboard_msgs: 4.4.0 (/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.890s] -- Found ur_msgs: 2.3.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[0.915s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.916s] -- Found controller_manager: 2.52.2 (/opt/ros/humble/share/controller_manager/cmake)
+[0.930s] -- Found ros2_control_test_assets: 2.52.2 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[0.932s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.935s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.935s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.976s] -- Configuring done
+[0.997s] -- Generating done
+[1.004s] -- Build files have been written to: /home/pran/Robot_Arm_ur5/build/ur_controllers
+[1.013s] Invoked command in '/home/pran/Robot_Arm_ur5/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/pran/Robot_Arm_ur5/install/ur_controllers
+[1.014s] Invoking command in '/home/pran/Robot_Arm_ur5/build/ur_controllers': AMENT_PREFIX_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pran/Robot_Arm_ur5/build/ur_controllers -- -j20 -l20
+[1.049s] [  5%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pran/Robot_Arm_ur5/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[1.049s] [  5%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pran/Robot_Arm_ur5/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[1.050s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pran/Robot_Arm_ur5/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[1.050s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.050s] [ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pran/Robot_Arm_ur5/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp /home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller_parameters.yaml `[0m
+[1.051s] [ 17%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pran/Robot_Arm_ur5/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[1.052s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pran/Robot_Arm_ur5/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[1.052s] [ 23%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pran/Robot_Arm_ur5/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[1.053s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.054s] [ 29%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pran/Robot_Arm_ur5/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[1.054s] [ 32%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.160s] [ 35%] [34m[1mCreating deprecated header file /home/pran/Robot_Arm_ur5/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[1.169s] [ 38%] [34m[1mCreating deprecated header file /home/pran/Robot_Arm_ur5/build/ur_controllers/include/tool_contact_controller_parameters.hpp[0m
+[1.178s] [ 38%] Built target ur_configuration_controller_parameters
+[1.180s] [ 41%] [34m[1mCreating deprecated header file /home/pran/Robot_Arm_ur5/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[1.182s] [ 41%] Built target tool_contact_controller_parameters
+[1.188s] [ 44%] [34m[1mCreating deprecated header file /home/pran/Robot_Arm_ur5/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[1.195s] [ 44%] Built target scaled_joint_trajectory_controller_parameters
+[1.203s] [ 44%] Built target freedrive_mode_controller_parameters
+[1.208s] [ 47%] [34m[1mCreating deprecated header file /home/pran/Robot_Arm_ur5/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[1.218s] [ 50%] [34m[1mCreating deprecated header file /home/pran/Robot_Arm_ur5/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[1.222s] [ 50%] Built target gpio_controller_parameters
+[1.232s] [ 50%] Built target passthrough_trajectory_controller_parameters
+[1.233s] [ 52%] [34m[1mCreating deprecated header file /home/pran/Robot_Arm_ur5/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[1.233s] [ 55%] [34m[1mCreating deprecated header file /home/pran/Robot_Arm_ur5/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[1.247s] [ 55%] Built target speed_scaling_state_broadcaster_parameters
+[1.248s] [ 55%] Built target force_mode_controller_parameters
+[1.264s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[1.264s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[1.265s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o[0m
+[1.266s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[1.266s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[1.266s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[1.267s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[1.267s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[1.592s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller.cpp:42[m[K:
+[1.594s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/tool_contact_controller.hpp:56:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_thread_safe_box.hpp: No such file or directory
+[1.595s]    56 | #include [01;31m[K<realtime_tools/realtime_thread_safe_box.hpp>[m[K
+[1.595s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.596s] compilation terminated.
+[1.596s] gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:76: CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o] Error 1
+[1.597s] gmake[2]: *** Waiting for unfinished jobs....
+[1.611s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller.cpp:52[m[K:
+[1.611s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp:54:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_thread_safe_box.hpp: No such file or directory
+[1.612s]    54 | #include [01;31m[K<realtime_tools/realtime_thread_safe_box.hpp>[m[K
+[1.612s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.613s] compilation terminated.
+[1.618s] gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:160: CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o] Error 1
+[1.621s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller.cpp:41[m[K:
+[1.624s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp:47:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_thread_safe_box.hpp: No such file or directory
+[1.625s]    47 | #include [01;31m[K<realtime_tools/realtime_thread_safe_box.hpp>[m[K
+[1.626s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.626s] compilation terminated.
+[1.627s] gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:174: CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o] Error 1
+[1.631s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller.cpp:42[m[K:
+[1.633s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/force_mode_controller.hpp:44:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_thread_safe_box.hpp: No such file or directory
+[1.633s]    44 | #include [01;31m[K<realtime_tools/realtime_thread_safe_box.hpp>[m[K
+[1.634s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.634s] compilation terminated.
+[1.634s] gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:90: CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o] Error 1
+[2.424s] [ 82%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.484s] [ 82%] Built target gmock_main
+[3.824s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kvoid ur_controllers::GPIOController::publishIO()[m[K’:
+[3.824s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:200:82:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.824s]   200 |     io_msg_.digital_out_states[i].state = static_cast<bool>(state_interfaces_[i].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.824s]       |                                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.824s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:204:82:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.825s]   204 |         static_cast<bool>(state_interfaces_[i + StateInterfaces::DIGITAL_INPUTS].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.825s]       |                                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.825s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:210:82:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.825s]   210 |         static_cast<float>(state_interfaces_[i + StateInterfaces::ANALOG_INPUTS].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.825s]       |                                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.825s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:212:86:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.825s]   212 |         static_cast<uint8_t>(state_interfaces_[i + StateInterfaces::ANALOG_IO_TYPES].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.825s]       |                                                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[3.825s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:218:83:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.825s]   218 |         static_cast<float>(state_interfaces_[i + StateInterfaces::ANALOG_OUTPUTS].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.825s]       |                                                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[3.826s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:220:90:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.826s]   220 |         static_cast<uint8_t>(state_interfaces_[i + StateInterfaces::ANALOG_IO_TYPES + 2].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.826s]       |                                                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[3.826s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kvoid ur_controllers::GPIOController::publishToolData()[m[K’:
+[3.826s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:229:74:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.826s]   229 |       static_cast<uint8_t>(state_interfaces_[StateInterfaces::TOOL_MODE].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.826s]       |                                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[3.826s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:231:85:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.826s]   231 |       static_cast<uint8_t>(state_interfaces_[StateInterfaces::TOOL_ANALOG_IO_TYPES].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.826s]       |                                                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[3.826s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:233:89:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.826s]   233 |       static_cast<uint8_t>(state_interfaces_[StateInterfaces::TOOL_ANALOG_IO_TYPES + 1].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.826s]       |                                                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[3.827s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:235:81:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.827s]   235 |       static_cast<float>(state_interfaces_[StateInterfaces::TOOL_ANALOG_INPUTS].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.827s]       |                                                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[3.827s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:237:85:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.827s]   237 |       static_cast<float>(state_interfaces_[StateInterfaces::TOOL_ANALOG_INPUTS + 1].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.827s]       |                                                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[3.827s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:239:84:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.827s]   239 |       static_cast<uint8_t>(state_interfaces_[StateInterfaces::TOOL_OUTPUT_VOLTAGE].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.827s]       |                                                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[3.827s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:241:82:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.827s]   241 |       static_cast<float>(state_interfaces_[StateInterfaces::TOOL_OUTPUT_CURRENT].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.827s]       |                                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.827s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:243:79:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.828s]   243 |       static_cast<float>(state_interfaces_[StateInterfaces::TOOL_TEMPERATURE].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.828s]       |                                                                               [01;31m[K^~~~~~~~~~~~[m[K
+[3.831s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kvoid ur_controllers::GPIOController::publishRobotMode()[m[K’:
+[3.832s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:249:88:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.832s]   249 |   auto robot_mode = static_cast<int8_t>(state_interfaces_[StateInterfaces::ROBOT_MODE].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.832s]       |                                                                                        [01;31m[K^~~~~~~~~~~~[m[K
+[3.833s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kvoid ur_controllers::GPIOController::publishSafetyMode()[m[K’:
+[3.833s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:259:91:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.833s]   259 |   auto safety_mode = static_cast<uint8_t>(state_interfaces_[StateInterfaces::SAFETY_MODE].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.833s]       |                                                                                           [01;31m[K^~~~~~~~~~~~[m[K
+[3.834s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kvoid ur_controllers::GPIOController::publishProgramRunning()[m[K’:
+[3.834s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:270:80:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.834s]   270 |       static_cast<uint8_t>(state_interfaces_[StateInterfaces::PROGRAM_RUNNING].[01;31m[Kget_optional[m[K().value_or(0.0));
+[3.834s]       |                                                                                [01;31m[K^~~~~~~~~~~~[m[K
+[3.836s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ur_controllers::GPIOController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[3.836s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:281:63:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.836s]   281 |   while (state_interfaces_[StateInterfaces::INITIALIZED_FLAG].[01;31m[Kget_optional[m[K().value_or(0.0) == 0.0) {
+[3.836s]       |                                                               [01;31m[K^~~~~~~~~~~~[m[K
+[3.868s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setIO(ur_msgs::srv::SetIO_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetIO_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.868s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:352:99:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.868s]   352 |     std::ignore = command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].set_value(ASYNC_WAITING[01;31m[K)[m[K;
+[3.868s]       |                                                                                                   [01;31m[K^[m[K
+[3.868s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.868s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.869s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.869s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.869s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.869s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.869s]       |       [01;36m[K^~~~~~~~[m[K
+[3.869s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.869s] /usr/include/c++/11/tuple: In substitution of ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const [with _Tp = void][m[K’:
+[3.869s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:352:99:[m[K   required from here
+[3.869s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;31m[Kerror: [m[Kforming reference to void
+[3.869s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.869s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.869s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.870s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.870s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.870s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.870s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:353:90:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.870s]   353 |     std::ignore = command_interfaces_[req->pin].set_value(static_cast<double>(req->state)[01;31m[K)[m[K;
+[3.870s]       |                                                                                          [01;31m[K^[m[K
+[3.870s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.870s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.870s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.870s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.870s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.871s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.871s]       |       [01;36m[K^~~~~~~~[m[K
+[3.871s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.871s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.871s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.871s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.871s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.871s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.871s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.871s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In lambda function:
+[3.871s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:358:75:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.872s]   358 |           return command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING);
+[3.872s]       |                                                                           [01;31m[K^~~~~~~~~~~~[m[K
+[3.872s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setIO(ur_msgs::srv::SetIO_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetIO_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.872s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:357:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kur_controllers::GPIOController::setIO(ur_msgs::srv::SetIO_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetIO_Response_<std::allocator<void> >::SharedPtr)::<lambda()>[m[K’ to ‘[01m[Kstd::function<double()>[m[K’
+[3.872s]   357 |     if (![01;31m[KwaitForAsyncCommand([&]() {[m[K
+[3.872s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.872s]   358 | [01;31m[K          return command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].get_optional().value_or(ASYNC_WAITING);[m[K
+[3.872s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.872s]   359 | [01;31m[K        })[m[K) {
+[3.872s]       |         [01;31m[K~~[m[K                   
+[3.872s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.872s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:198:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool ur_controllers::GPIOController::waitForAsyncCommand(std::function<double()>)[m[K’
+[3.872s]   198 |   bool waitForAsyncCommand([01;36m[Kstd::function<double(void)> get_value[m[K);
+[3.873s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.873s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:364:77:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.873s]   364 |     resp->success = static_cast<bool>(command_interfaces_[IO_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING));
+[3.873s]       |                                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[3.873s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:368:99:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.873s]   368 |     std::ignore = command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].set_value(ASYNC_WAITING[01;31m[K)[m[K;
+[3.873s]       |                                                                                                   [01;31m[K^[m[K
+[3.873s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.873s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.873s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.873s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.873s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.873s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.873s]       |       [01;36m[K^~~~~~~~[m[K
+[3.874s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.874s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.874s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.874s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.874s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.874s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.874s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.874s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:370:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.874s]   370 |         static_cast<double>(req->state)[01;31m[K)[m[K;
+[3.874s]       |                                        [01;31m[K^[m[K
+[3.874s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.874s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.874s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.874s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.874s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.875s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.875s]       |       [01;36m[K^~~~~~~~[m[K
+[3.875s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.875s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.875s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.875s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.875s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.875s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.875s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.875s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In lambda function:
+[3.875s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:375:75:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.875s]   375 |           return command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING);
+[3.875s]       |                                                                           [01;31m[K^~~~~~~~~~~~[m[K
+[3.875s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setIO(ur_msgs::srv::SetIO_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetIO_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.875s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:374:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kur_controllers::GPIOController::setIO(ur_msgs::srv::SetIO_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetIO_Response_<std::allocator<void> >::SharedPtr)::<lambda()>[m[K’ to ‘[01m[Kstd::function<double()>[m[K’
+[3.876s]   374 |     if (![01;31m[KwaitForAsyncCommand([&]() {[m[K
+[3.876s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.876s]   375 | [01;31m[K          return command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].get_optional().value_or(ASYNC_WAITING);[m[K
+[3.876s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.876s]   376 | [01;31m[K        })[m[K) {
+[3.876s]       |         [01;31m[K~~[m[K                   
+[3.876s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.876s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:198:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool ur_controllers::GPIOController::waitForAsyncCommand(std::function<double()>)[m[K’
+[3.876s]   198 |   bool waitForAsyncCommand([01;36m[Kstd::function<double(void)> get_value[m[K);
+[3.876s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.876s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:382:66:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.876s]   382 |         command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING));
+[3.876s]       |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.877s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:385:99:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.877s]   385 |     std::ignore = command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].set_value(ASYNC_WAITING[01;31m[K)[m[K;
+[3.877s]       |                                                                                                   [01;31m[K^[m[K
+[3.877s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.877s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.877s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.877s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.877s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.877s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.877s]       |       [01;36m[K^~~~~~~~[m[K
+[3.877s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.877s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.877s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.877s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.877s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.877s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.877s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.877s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:386:117:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.877s]   386 |     std::ignore = command_interfaces_[CommandInterfaces::TOOL_VOLTAGE_CMD].set_value(static_cast<double>(req->state)[01;31m[K)[m[K;
+[3.877s]       |                                                                                                                     [01;31m[K^[m[K
+[3.877s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.877s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.878s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.878s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.878s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.878s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.878s]       |       [01;36m[K^~~~~~~~[m[K
+[3.878s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.878s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.878s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.878s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.878s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.878s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.878s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.878s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In lambda function:
+[3.878s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:391:75:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.878s]   391 |           return command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING);
+[3.878s]       |                                                                           [01;31m[K^~~~~~~~~~~~[m[K
+[3.878s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setIO(ur_msgs::srv::SetIO_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetIO_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.878s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:390:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kur_controllers::GPIOController::setIO(ur_msgs::srv::SetIO_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetIO_Response_<std::allocator<void> >::SharedPtr)::<lambda()>[m[K’ to ‘[01m[Kstd::function<double()>[m[K’
+[3.878s]   390 |     if (![01;31m[KwaitForAsyncCommand([&]() {[m[K
+[3.878s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.878s]   391 | [01;31m[K          return command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].get_optional().value_or(ASYNC_WAITING);[m[K
+[3.878s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.878s]   392 | [01;31m[K        })[m[K) {
+[3.878s]       |         [01;31m[K~~[m[K                   
+[3.878s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.878s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:198:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool ur_controllers::GPIOController::waitForAsyncCommand(std::function<double()>)[m[K’
+[3.878s]   198 |   bool waitForAsyncCommand([01;36m[Kstd::function<double(void)> get_value[m[K);
+[3.879s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.879s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:398:66:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.879s]   398 |         command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING));
+[3.879s]       |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.879s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setAnalogOutput(ur_msgs::srv::SetAnalogOutput_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetAnalogOutput_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.879s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:429:97:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.879s]   429 |   std::ignore = command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].set_value(ASYNC_WAITING[01;31m[K)[m[K;
+[3.879s]       |                                                                                                 [01;31m[K^[m[K
+[3.879s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.879s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.879s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.879s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.879s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.879s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.879s]       |       [01;36m[K^~~~~~~~[m[K
+[3.879s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.879s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.879s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.879s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.879s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.879s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.879s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.879s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:431:43:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.879s]   431 |       static_cast<double>(req->data.state)[01;31m[K)[m[K;
+[3.879s]       |                                           [01;31m[K^[m[K
+[3.880s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.880s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.880s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.880s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.880s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.880s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.880s]       |       [01;36m[K^~~~~~~~[m[K
+[3.880s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.880s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.880s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.880s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.880s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.880s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.880s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.880s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:433:116:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.880s]   433 |       command_interfaces_[CommandInterfaces::ANALOG_OUTPUTS_DOMAIN].set_value(static_cast<double>(req->data.domain)[01;31m[K)[m[K;
+[3.880s]       |                                                                                                                    [01;31m[K^[m[K
+[3.880s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.880s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.880s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.880s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.880s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.880s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.880s]       |       [01;36m[K^~~~~~~~[m[K
+[3.880s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.880s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.880s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.880s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.880s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.880s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.880s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.880s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In lambda function:
+[3.880s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:439:73:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.880s]   439 |         return command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING);
+[3.880s]       |                                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[3.880s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setAnalogOutput(ur_msgs::srv::SetAnalogOutput_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetAnalogOutput_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.881s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:438:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kur_controllers::GPIOController::setAnalogOutput(ur_msgs::srv::SetAnalogOutput_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetAnalogOutput_Response_<std::allocator<void> >::SharedPtr)::<lambda()>[m[K’ to ‘[01m[Kstd::function<double()>[m[K’
+[3.881s]   438 |   if (![01;31m[KwaitForAsyncCommand([&]() {[m[K
+[3.881s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.881s]   439 | [01;31m[K        return command_interfaces_[CommandInterfaces::IO_ASYNC_SUCCESS].get_optional().value_or(ASYNC_WAITING);[m[K
+[3.881s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.881s]   440 | [01;31m[K      })[m[K) {
+[3.881s]       |       [01;31m[K~~[m[K                   
+[3.881s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.881s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:198:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool ur_controllers::GPIOController::waitForAsyncCommand(std::function<double()>)[m[K’
+[3.881s]   198 |   bool waitForAsyncCommand([01;36m[Kstd::function<double(void)> get_value[m[K);
+[3.881s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.881s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:445:75:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.881s]   445 |   resp->success = static_cast<bool>(command_interfaces_[IO_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING));
+[3.881s]       |                                                                           [01;31m[K^~~~~~~~~~~~[m[K
+[3.882s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setSpeedSlider(ur_msgs::srv::SetSpeedSliderFraction_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetSpeedSliderFraction_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.882s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:455:118:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.882s]   455 |     std::ignore = command_interfaces_[CommandInterfaces::TARGET_SPEED_FRACTION_ASYNC_SUCCESS].set_value(ASYNC_WAITING[01;31m[K)[m[K;
+[3.882s]       |                                                                                                                      [01;31m[K^[m[K
+[3.882s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.882s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.882s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.883s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.883s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.883s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.883s]       |       [01;36m[K^~~~~~~~[m[K
+[3.883s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.883s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.883s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.883s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.883s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.883s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.883s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.883s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:458:56:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.883s]   458 |         static_cast<double>(req->speed_slider_fraction)[01;31m[K)[m[K;
+[3.884s]       |                                                        [01;31m[K^[m[K
+[3.884s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.884s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.884s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.884s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.884s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.884s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.884s]       |       [01;36m[K^~~~~~~~[m[K
+[3.884s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.884s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.884s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.884s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.884s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.885s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.885s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.885s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In lambda function:
+[3.885s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:461:94:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.885s]   461 |           return command_interfaces_[CommandInterfaces::TARGET_SPEED_FRACTION_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(
+[3.885s]       |                                                                                              [01;31m[K^~~~~~~~~~~~[m[K
+[3.885s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setSpeedSlider(ur_msgs::srv::SetSpeedSliderFraction_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetSpeedSliderFraction_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.885s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:460:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kur_controllers::GPIOController::setSpeedSlider(ur_msgs::srv::SetSpeedSliderFraction_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetSpeedSliderFraction_Response_<std::allocator<void> >::SharedPtr)::<lambda()>[m[K’ to ‘[01m[Kstd::function<double()>[m[K’
+[3.885s]   460 |     if (![01;31m[KwaitForAsyncCommand([&]() {[m[K
+[3.885s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.885s]   461 | [01;31m[K          return command_interfaces_[CommandInterfaces::TARGET_SPEED_FRACTION_ASYNC_SUCCESS].get_optional().value_or([m[K
+[3.885s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.885s]   462 | [01;31m[K              ASYNC_WAITING);[m[K
+[3.886s]       |               [01;31m[K~~~~~~~~~~~~~~~[m[K
+[3.886s]   463 | [01;31m[K        })[m[K) {
+[3.886s]       |         [01;31m[K~~[m[K                   
+[3.886s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.886s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:198:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool ur_controllers::GPIOController::waitForAsyncCommand(std::function<double()>)[m[K’
+[3.886s]   198 |   bool waitForAsyncCommand([01;36m[Kstd::function<double(void)> get_value[m[K);
+[3.886s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.886s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:468:85:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.886s]   468 |         command_interfaces_[CommandInterfaces::TARGET_SPEED_FRACTION_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(
+[3.886s]       |                                                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[3.887s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::resendRobotProgram(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.887s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:483:115:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.887s]   483 |   std::ignore = command_interfaces_[CommandInterfaces::RESEND_ROBOT_PROGRAM_ASYNC_SUCCESS].set_value(ASYNC_WAITING[01;31m[K)[m[K;
+[3.887s]       |                                                                                                                   [01;31m[K^[m[K
+[3.887s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.888s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.888s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.888s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.888s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.888s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.888s]       |       [01;36m[K^~~~~~~~[m[K
+[3.888s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.888s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.888s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.888s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.888s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.889s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.889s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.889s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:485:95:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.889s]   485 |   std::ignore = command_interfaces_[CommandInterfaces::RESEND_ROBOT_PROGRAM_CMD].set_value(1.0[01;31m[K)[m[K;
+[3.889s]       |                                                                                               [01;31m[K^[m[K
+[3.889s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.889s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.889s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.889s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.889s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.889s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.889s]       |       [01;36m[K^~~~~~~~[m[K
+[3.889s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.889s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.889s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.889s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.889s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.889s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.889s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.889s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In lambda function:
+[3.889s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:488:91:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.889s]   488 |         return command_interfaces_[CommandInterfaces::RESEND_ROBOT_PROGRAM_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(
+[3.889s]       |                                                                                           [01;31m[K^~~~~~~~~~~~[m[K
+[3.889s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::resendRobotProgram(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.889s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:487:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kur_controllers::GPIOController::resendRobotProgram(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)::<lambda()>[m[K’ to ‘[01m[Kstd::function<double()>[m[K’
+[3.889s]   487 |   if (![01;31m[KwaitForAsyncCommand([&]() {[m[K
+[3.889s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.889s]   488 | [01;31m[K        return command_interfaces_[CommandInterfaces::RESEND_ROBOT_PROGRAM_ASYNC_SUCCESS].get_optional().value_or([m[K
+[3.890s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.890s]   489 | [01;31m[K            ASYNC_WAITING);[m[K
+[3.890s]       |             [01;31m[K~~~~~~~~~~~~~~~[m[K
+[3.890s]   490 | [01;31m[K      })[m[K) {
+[3.890s]       |       [01;31m[K~~[m[K                   
+[3.890s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.890s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:198:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool ur_controllers::GPIOController::waitForAsyncCommand(std::function<double()>)[m[K’
+[3.890s]   198 |   bool waitForAsyncCommand([01;36m[Kstd::function<double(void)> get_value[m[K);
+[3.890s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.890s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:495:82:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.890s]   495 |       command_interfaces_[CommandInterfaces::RESEND_ROBOT_PROGRAM_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(
+[3.890s]       |                                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.890s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::handBackControl(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.890s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:512:112:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.890s]   512 |   std::ignore = command_interfaces_[CommandInterfaces::HAND_BACK_CONTROL_ASYNC_SUCCESS].set_value(ASYNC_WAITING[01;31m[K)[m[K;
+[3.890s]       |                                                                                                                [01;31m[K^[m[K
+[3.890s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.890s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.890s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.890s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.890s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.890s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.890s]       |       [01;36m[K^~~~~~~~[m[K
+[3.890s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.890s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.890s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.890s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.890s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.890s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.890s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.890s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:514:92:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.890s]   514 |   std::ignore = command_interfaces_[CommandInterfaces::HAND_BACK_CONTROL_CMD].set_value(1.0[01;31m[K)[m[K;
+[3.890s]       |                                                                                            [01;31m[K^[m[K
+[3.890s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.891s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.891s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.891s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.891s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.891s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.891s]       |       [01;36m[K^~~~~~~~[m[K
+[3.891s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.891s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.891s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.891s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.891s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.891s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.891s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.891s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In lambda function:
+[3.891s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:517:88:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.891s]   517 |         return command_interfaces_[CommandInterfaces::HAND_BACK_CONTROL_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(
+[3.891s]       |                                                                                        [01;31m[K^~~~~~~~~~~~[m[K
+[3.891s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::handBackControl(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.891s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:516:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kur_controllers::GPIOController::handBackControl(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)::<lambda()>[m[K’ to ‘[01m[Kstd::function<double()>[m[K’
+[3.891s]   516 |   if (![01;31m[KwaitForAsyncCommand([&]() {[m[K
+[3.891s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.891s]   517 | [01;31m[K        return command_interfaces_[CommandInterfaces::HAND_BACK_CONTROL_ASYNC_SUCCESS].get_optional().value_or([m[K
+[3.891s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.891s]   518 | [01;31m[K            ASYNC_WAITING);[m[K
+[3.891s]       |             [01;31m[K~~~~~~~~~~~~~~~[m[K
+[3.891s]   519 | [01;31m[K      })[m[K) {
+[3.891s]       |       [01;31m[K~~[m[K                   
+[3.891s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.891s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:198:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool ur_controllers::GPIOController::waitForAsyncCommand(std::function<double()>)[m[K’
+[3.891s]   198 |   bool waitForAsyncCommand([01;36m[Kstd::function<double(void)> get_value[m[K);
+[3.891s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.891s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:524:79:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.891s]   524 |       command_interfaces_[CommandInterfaces::HAND_BACK_CONTROL_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING));
+[3.891s]       |                                                                               [01;31m[K^~~~~~~~~~~~[m[K
+[3.893s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setPayload(ur_msgs::srv::SetPayload_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetPayload_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.893s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:540:102:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.893s]   540 |   std::ignore = command_interfaces_[CommandInterfaces::PAYLOAD_ASYNC_SUCCESS].set_value(ASYNC_WAITING[01;31m[K)[m[K;
+[3.893s]       |                                                                                                      [01;31m[K^[m[K
+[3.894s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.894s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.894s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.894s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.894s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.894s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.894s]       |       [01;36m[K^~~~~~~~[m[K
+[3.894s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.894s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.894s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.894s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.894s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.894s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.894s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.894s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:542:110:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.894s]   542 |   std::ignore = command_interfaces_[CommandInterfaces::PAYLOAD_MASS].set_value(static_cast<double>(req->mass)[01;31m[K)[m[K;
+[3.894s]       |                                                                                                              [01;31m[K^[m[K
+[3.894s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.894s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.894s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.894s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.894s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.894s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.894s]       |       [01;36m[K^~~~~~~~[m[K
+[3.894s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.894s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.894s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.895s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.895s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.895s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.895s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.895s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:543:105:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.895s]   543 |   std::ignore = command_interfaces_[CommandInterfaces::PAYLOAD_COG_X].set_value(req->center_of_gravity.x[01;31m[K)[m[K;
+[3.895s]       |                                                                                                         [01;31m[K^[m[K
+[3.895s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.895s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.895s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.895s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.895s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.895s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.895s]       |       [01;36m[K^~~~~~~~[m[K
+[3.895s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.895s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.895s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.895s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.895s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.895s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.895s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.895s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:544:105:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.895s]   544 |   std::ignore = command_interfaces_[CommandInterfaces::PAYLOAD_COG_Y].set_value(req->center_of_gravity.y[01;31m[K)[m[K;
+[3.895s]       |                                                                                                         [01;31m[K^[m[K
+[3.895s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.895s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.895s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.895s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.895s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.895s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.895s]       |       [01;36m[K^~~~~~~~[m[K
+[3.896s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.896s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.896s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.896s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.896s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.896s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.896s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.896s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:545:105:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.896s]   545 |   std::ignore = command_interfaces_[CommandInterfaces::PAYLOAD_COG_Z].set_value(req->center_of_gravity.z[01;31m[K)[m[K;
+[3.896s]       |                                                                                                         [01;31m[K^[m[K
+[3.896s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.896s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.896s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.896s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.896s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.896s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.896s]       |       [01;36m[K^~~~~~~~[m[K
+[3.896s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.896s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.896s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.896s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.896s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.896s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.896s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.896s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In lambda function:
+[3.896s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:548:78:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.896s]   548 |         return command_interfaces_[CommandInterfaces::PAYLOAD_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING);
+[3.896s]       |                                                                              [01;31m[K^~~~~~~~~~~~[m[K
+[3.896s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setPayload(ur_msgs::srv::SetPayload_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetPayload_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.896s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:547:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kur_controllers::GPIOController::setPayload(ur_msgs::srv::SetPayload_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetPayload_Response_<std::allocator<void> >::SharedPtr)::<lambda()>[m[K’ to ‘[01m[Kstd::function<double()>[m[K’
+[3.897s]   547 |   if (![01;31m[KwaitForAsyncCommand([&]() {[m[K
+[3.897s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.897s]   548 | [01;31m[K        return command_interfaces_[CommandInterfaces::PAYLOAD_ASYNC_SUCCESS].get_optional().value_or(ASYNC_WAITING);[m[K
+[3.897s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.897s]   549 | [01;31m[K      })[m[K) {
+[3.897s]       |       [01;31m[K~~[m[K                   
+[3.897s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.897s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:198:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool ur_controllers::GPIOController::waitForAsyncCommand(std::function<double()>)[m[K’
+[3.897s]   198 |   bool waitForAsyncCommand([01;36m[Kstd::function<double(void)> get_value[m[K);
+[3.897s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.897s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:555:69:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.897s]   555 |       command_interfaces_[CommandInterfaces::PAYLOAD_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING));
+[3.897s]       |                                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[3.897s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::zeroFTSensor(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.897s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:571:108:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.897s]   571 |   std::ignore = command_interfaces_[CommandInterfaces::ZERO_FTSENSOR_ASYNC_SUCCESS].set_value(ASYNC_WAITING[01;31m[K)[m[K;
+[3.897s]       |                                                                                                            [01;31m[K^[m[K
+[3.897s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.897s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.897s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.897s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.897s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.897s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.897s]       |       [01;36m[K^~~~~~~~[m[K
+[3.897s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.897s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.897s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.897s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.897s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.897s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.897s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.897s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:573:88:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::_Swallow_assign[m[K’ and ‘[01m[Kvoid[m[K’)
+[3.897s]   573 |   std::ignore = command_interfaces_[CommandInterfaces::ZERO_FTSENSOR_CMD].set_value(1.0[01;31m[K)[m[K;
+[3.897s]       |                                                                                        [01;31m[K^[m[K
+[3.897s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.897s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.898s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:41[m[K,
+[3.898s]                  from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.898s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const std::_Swallow_assign& std::_Swallow_assign::operator=(const _Tp&) const[m[K’
+[3.898s]  1779 |       [01;36m[Koperator[m[K=(const _Tp&) const
+[3.898s]       |       [01;36m[K^~~~~~~~[m[K
+[3.898s] [01m[K/usr/include/c++/11/tuple:1779:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.898s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(const std::_Swallow_assign&)[m[K’
+[3.898s]  1775 |   struct [01;36m[K_Swallow_assign[m[K
+[3.898s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.898s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst std::_Swallow_assign&[m[K’
+[3.898s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::_Swallow_assign& std::_Swallow_assign::operator=(std::_Swallow_assign&&)[m[K’
+[3.898s] [01m[K/usr/include/c++/11/tuple:1775:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::_Swallow_assign&&[m[K’
+[3.898s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In lambda function:
+[3.898s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:576:84:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.898s]   576 |         return command_interfaces_[CommandInterfaces::ZERO_FTSENSOR_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(
+[3.898s]       |                                                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[3.898s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::zeroFTSensor(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.898s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:575:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kur_controllers::GPIOController::zeroFTSensor(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)::<lambda()>[m[K’ to ‘[01m[Kstd::function<double()>[m[K’
+[3.898s]   575 |   if (![01;31m[KwaitForAsyncCommand([&]() {[m[K
+[3.898s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.898s]   576 | [01;31m[K        return command_interfaces_[CommandInterfaces::ZERO_FTSENSOR_ASYNC_SUCCESS].get_optional().value_or([m[K
+[3.898s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.898s]   577 | [01;31m[K            ASYNC_WAITING);[m[K
+[3.898s]       |             [01;31m[K~~~~~~~~~~~~~~~[m[K
+[3.898s]   578 | [01;31m[K      })[m[K) {
+[3.898s]       |       [01;31m[K~~[m[K                   
+[3.898s] In file included from [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:38[m[K:
+[3.898s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:198:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool ur_controllers::GPIOController::waitForAsyncCommand(std::function<double()>)[m[K’
+[3.898s]   198 |   bool waitForAsyncCommand([01;36m[Kstd::function<double(void)> get_value[m[K);
+[3.898s]       |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.898s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:584:75:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedCommandInterface>, hardware_interface::LoanedCommandInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.898s]   584 |       command_interfaces_[CommandInterfaces::ZERO_FTSENSOR_ASYNC_SUCCESS].[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING));
+[3.898s]       |                                                                           [01;31m[K^~~~~~~~~~~~[m[K
+[3.980s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type ur_controllers::SpeedScalingStateBroadcaster::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.980s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster.cpp:138:58:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kget_optional[m[K’
+[3.980s]   138 |     speed_scaling_state_msg_.data = state_interfaces_[0].[01;31m[Kget_optional[m[K().value_or(1.0) * 100.0;
+[3.980s]       |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[4.218s] [ 85%] [32m[1mLinking CXX static library libgmock.a[0m
+[4.299s] [ 85%] Built target gmock
+[4.423s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ur_controllers::FreedriveModeController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[4.423s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:156:53:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K(&((ur_controllers::FreedriveModeController*)this)->ur_controllers::FreedriveModeController::abort_command_interface_.std::optional<std::reference_wrapper<hardware_interface::LoanedCommandInterface> >::operator->()->std::reference_wrapper<hardware_interface::LoanedCommandInterface>::get())->hardware_interface::LoanedCommandInterface::set_value(0.0)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+[4.423s]   156 |       if (![01;31m[Kabort_command_interface_->get().set_value(0.0)[m[K) {
+[4.423s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.423s]       |                                                     [01;31m[K|[m[K
+[4.423s]       |                                                     [01;31m[Kvoid[m[K
+[4.423s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:156:53:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[4.424s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ur_controllers::FreedriveModeController::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[4.424s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:172:49:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K(&((ur_controllers::FreedriveModeController*)this)->ur_controllers::FreedriveModeController::abort_command_interface_.std::optional<std::reference_wrapper<hardware_interface::LoanedCommandInterface> >::operator->()->std::reference_wrapper<hardware_interface::LoanedCommandInterface>::get())->hardware_interface::LoanedCommandInterface::set_value(1.0e+0)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+[4.424s]   172 |   if (![01;31m[Kabort_command_interface_->get().set_value(1.0)[m[K) {
+[4.424s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.424s]       |                                                 [01;31m[K|[m[K
+[4.424s]       |                                                 [01;31m[Kvoid[m[K
+[4.424s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:172:49:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[4.425s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type ur_controllers::FreedriveModeController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.425s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:196:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’ has no member named ‘[01m[Kget_optional[m[K’
+[4.425s]   196 |   async_state_ = async_success_command_interface_->get().[01;31m[Kget_optional[m[K().value_or(ASYNC_WAITING);
+[4.425s]       |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[4.425s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:203:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’ has no member named ‘[01m[Kget_optional[m[K’
+[4.425s]   203 |       if ((abort_command_interface_->get().[01;31m[Kget_optional[m[K().has_value()) &&
+[4.425s]       |                                            [01;31m[K^~~~~~~~~~~~[m[K
+[4.425s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:204:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass hardware_interface::LoanedCommandInterface[m[K’ has no member named ‘[01m[Kget_optional[m[K’
+[4.425s]   204 |           abort_command_interface_->get().[01;31m[Kget_optional[m[K().value() == 1.0) {
+[4.425s]       |                                           [01;31m[K^~~~~~~~~~~~[m[K
+[4.426s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:212:68:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[4.426s]   212 |         write_success &= [01;31m[Kenable_command_interface_->get().set_value(1.0)[m[K;
+[4.426s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.426s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:214:75:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[4.426s]   214 |         write_success &= [01;31m[Kasync_success_command_interface_->get().set_value(ASYNC_WAITING)[m[K;
+[4.426s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[4.426s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:221:65:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[4.426s]   221 |       write_success &= [01;31m[Kabort_command_interface_->get().set_value(1.0)[m[K;
+[4.426s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.426s] [01m[K/home/pran/Robot_Arm_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:223:73:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[4.426s]   223 |       write_success &= [01;31m[Kasync_success_command_interface_->get().set_value(ASYNC_WAITING)[m[K;
+[4.427s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[4.601s] gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:118: CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o] Error 1
+[6.022s] gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:146: CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o] Error 1
+[6.845s] gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:132: CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o] Error 1
+[6.845s] gmake[1]: *** [CMakeFiles/Makefile2:409: CMakeFiles/ur_controllers.dir/all] Error 2
+[6.846s] gmake: *** [Makefile:146: all] Error 2
+[6.852s] Invoked command in '/home/pran/Robot_Arm_ur5/build/ur_controllers' returned '2': AMENT_PREFIX_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pran/Robot_Arm_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pran/Robot_Arm_ur5/build/ur_controllers -- -j20 -l20
